@@ -1,0 +1,5 @@
+
+# Contributing
+
+Contributions are welcomed (planned to be more beginners-friendly in the future).
+
