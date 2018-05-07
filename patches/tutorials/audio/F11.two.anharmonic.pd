@@ -9,7 +9,6 @@
 #X obj 36 252 osc~;
 #X obj 192 252 phasor~;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#X obj -60 12 freeze;
 #X text 24 24 two-cosine (anharmonic);
 #N canvas 0 22 500 350 \$0-spectrum 0;
 #X array \$0-spectrum 256 float 1;
@@ -55,7 +54,7 @@
 #X text 12 72 Spectrum is harmonic only at a multiple of the carrier frequency.;
 #X f 66;
 #X connect 0 0 5 0;
-#X connect 0 0 19 0;
+#X connect 0 0 18 0;
 #X connect 1 0 2 1;
 #X connect 2 0 4 0;
 #X connect 3 0 1 0;
@@ -63,12 +62,12 @@
 #X connect 6 0 8 0;
 #X connect 7 0 2 0;
 #X connect 8 0 4 1;
-#X connect 13 0 3 0;
-#X connect 14 0 6 0;
-#X connect 14 1 6 1;
+#X connect 12 0 3 0;
+#X connect 13 0 6 0;
+#X connect 13 1 6 1;
+#X connect 14 0 13 0;
 #X connect 15 0 14 0;
-#X connect 16 0 15 0;
-#X connect 17 0 18 0;
-#X connect 18 0 6 0;
-#X connect 18 0 7 0;
+#X connect 16 0 17 0;
+#X connect 17 0 6 0;
+#X connect 17 0 7 0;
 #X coords 0 0 1 1 250 175 0 0 0;

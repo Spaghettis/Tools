@@ -4,7 +4,6 @@
 #X obj 96 228 line~;
 #X obj 36 300 *~;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#X obj -60 12 freeze;
 #X text 24 24 wavetable (read);
 #N canvas 0 22 500 350 \$0-out 0;
 #X array \$0-out 256 float 1;
@@ -32,13 +31,13 @@
 #X restore 96 300 pd table;
 #X text 12 72 Alternate oscillator.;
 #X obj 36 108 phasor~ 440;
-#X connect 0 0 8 0;
-#X connect 0 0 12 0;
+#X connect 0 0 7 0;
+#X connect 0 0 11 0;
 #X connect 1 0 2 0;
-#X connect 2 0 11 0;
+#X connect 2 0 10 0;
 #X connect 3 0 0 0;
-#X connect 8 0 10 0;
-#X connect 9 0 1 0;
-#X connect 11 0 3 1;
-#X connect 16 0 3 0;
+#X connect 7 0 9 0;
+#X connect 8 0 1 0;
+#X connect 10 0 3 1;
+#X connect 15 0 3 0;
 #X coords 0 0 1 1 250 175 0 0 0;

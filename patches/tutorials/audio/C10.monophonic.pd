@@ -1,7 +1,6 @@
 #N canvas 548 178 302 338 12;
 #X obj 36 252 output;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#X obj -60 12 freeze;
 #X text 24 24 monophonic;
 #N canvas 303 273 300 344 midi 0;
 #X obj 84 216 notein;
@@ -101,8 +100,8 @@
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 204 pd synth;
 #X text 12 72 Simple monophonic MIDI synthesizer.;
-#X connect 4 0 7 0;
-#X connect 5 0 4 0;
-#X connect 6 0 4 0;
-#X connect 7 0 0 0;
+#X connect 3 0 6 0;
+#X connect 4 0 3 0;
+#X connect 5 0 3 0;
+#X connect 6 0 0 0;
 #X coords 0 0 1 1 250 175 0 0 0;

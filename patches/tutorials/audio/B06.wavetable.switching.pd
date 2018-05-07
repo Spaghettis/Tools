@@ -1,6 +1,5 @@
 #N canvas 482 248 491 320 12;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#X obj -60 12 freeze;
 #X text 24 24 wavetable (switching);
 #X obj 36 252 tabosc4~ \$0-array1;
 #X msg 72 180 set \$0-array1;
@@ -28,8 +27,8 @@
 #X restore 216 84 graph \$0-out;
 #X obj 36 108 sig~ 880;
 #X text 12 72 Switching between tables.;
-#X connect 3 0 7 0;
-#X connect 4 0 3 0;
-#X connect 5 0 3 0;
-#X connect 9 0 3 0;
+#X connect 2 0 6 0;
+#X connect 3 0 2 0;
+#X connect 4 0 2 0;
+#X connect 8 0 2 0;
 #X coords 0 0 1 1 250 175 0 0 0;

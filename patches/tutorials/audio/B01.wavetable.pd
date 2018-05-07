@@ -2,7 +2,6 @@
 #X obj 36 144 mtof;
 #X obj 36 396 output;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#X obj -60 12 freeze;
 #X text 12 72 A simple wavetable oscillator.;
 #X floatatom 36 108 5 0 0 1 - #0-pitch -;
 #X f 5;
@@ -34,10 +33,10 @@
 #X coords 0 2 255 -2 250 175 1 0 0;
 #X restore 252 288 graph \$0-out;
 #X text 24 24 wavetable;
-#X connect 0 0 6 0;
-#X connect 5 0 0 0;
-#X connect 6 0 10 0;
-#X connect 9 0 7 0;
-#X connect 10 0 1 0;
-#X connect 10 0 11 0;
+#X connect 0 0 5 0;
+#X connect 4 0 0 0;
+#X connect 5 0 9 0;
+#X connect 8 0 6 0;
+#X connect 9 0 1 0;
+#X connect 9 0 10 0;
 #X coords 0 0 1 1 250 175 0 0 0;

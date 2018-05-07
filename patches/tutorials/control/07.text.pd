@@ -1,6 +1,5 @@
 #N canvas 747 176 506 259 12;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#X obj -60 12 freeze;
 #X text 24 24 text;
 #X obj 36 108 qlist;
 #X obj 36 132 textfile;

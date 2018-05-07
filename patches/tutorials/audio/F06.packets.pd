@@ -6,7 +6,6 @@
 #X obj 192 168 pack 0 50;
 #X obj 36 540 output;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#X obj -60 12 freeze;
 #X text 24 24 packets;
 #N canvas 619 118 301 476 pulse 0;
 #X obj 156 108 line~;
@@ -69,14 +68,14 @@
 #X text 12 72 Making windowed wave packets.;
 #X f 30;
 #X connect 0 0 1 1;
-#X connect 0 0 14 0;
+#X connect 0 0 13 0;
 #X connect 1 0 5 0;
-#X connect 1 0 16 0;
+#X connect 1 0 15 0;
 #X connect 2 0 0 0;
 #X connect 3 0 2 1;
 #X connect 4 0 3 0;
-#X connect 9 0 1 0;
-#X connect 9 1 2 0;
-#X connect 10 0 9 0;
-#X connect 11 0 4 0;
+#X connect 8 0 1 0;
+#X connect 8 1 2 0;
+#X connect 9 0 8 0;
+#X connect 10 0 4 0;
 #X coords 0 0 1 1 250 175 0 0 0;

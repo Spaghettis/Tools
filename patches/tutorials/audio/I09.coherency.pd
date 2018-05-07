@@ -14,7 +14,6 @@
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 120 252 pd more;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#X obj -60 12 freeze;
 #X text 24 24 coherency;
 #X text 12 72 Pitched / unpitched separation.;
 #N canvas 518 210 670 306 hann 0;
@@ -191,8 +190,8 @@
 #X obj 132 108 nbx 5 40 0 100 0 1 empty empty empty 0 -7 0 10 #ffffff #000000 #000000 20 100;
 #X floatatom 132 168 5 0 100 1 - - -;
 #X f 5;
-#X connect 7 0 0 0;
-#X connect 8 0 7 0;
-#X connect 9 0 10 0;
-#X connect 10 0 7 1;
+#X connect 6 0 0 0;
+#X connect 7 0 6 0;
+#X connect 8 0 9 0;
+#X connect 9 0 6 1;
 #X coords 0 0 1 1 250 175 0 0 0;

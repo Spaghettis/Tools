@@ -196,7 +196,6 @@
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 180 228 pd tables;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#X obj -60 12 freeze;
 #X text 24 24 vocoder (reverb);
 #N canvas 356 274 825 180 more 0;
 #X text 12 12 This is a phase vocoder acting as a reverberator.;
@@ -258,7 +257,7 @@
 #X connect 18 2 14 0;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 156 pd signal;
-#X obj 108 108 nbx 5 40 0 127 0 0 empty empty empty 0 -7 0 10 #ffffff #000000 #000000 60 127;
+#X obj 108 108 nbx 5 40 0 127 0 0 empty empty empty 0 -7 0 10 #ffffff #000000 #000000 0 127;
 #N canvas 516 161 671 299 hann 0;
 #X obj 36 252 tabwrite \$0-hann;
 #X obj 36 24 loadbang;
@@ -282,8 +281,8 @@
 #X obj 36 108 bng 15 250 50 0 empty empty empty 17 7 0 10 #ffffff #000000 #000000;
 #X text 12 72 A vocoder acting as a reverberator.;
 #X connect 0 0 1 0;
-#X connect 7 0 0 0;
-#X connect 8 0 7 1;
-#X connect 10 0 0 1;
-#X connect 11 0 7 0;
+#X connect 6 0 0 0;
+#X connect 7 0 6 1;
+#X connect 9 0 0 1;
+#X connect 10 0 6 0;
 #X coords 0 0 1 1 250 175 0 0 0;

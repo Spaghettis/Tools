@@ -81,7 +81,6 @@
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 132 540 pd more;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#X obj -60 12 freeze;
 #X text 24 24 phaser;
 #X text 12 72 The phaser ranks as one of the great guitar pedals.;
 #X f 52;
@@ -113,7 +112,7 @@
 #X connect 16 0 6 1;
 #X connect 16 0 9 1;
 #X connect 16 0 8 1;
-#X connect 16 0 23 0;
+#X connect 16 0 22 0;
 #X connect 17 0 16 0;
-#X connect 23 0 24 0;
+#X connect 22 0 23 0;
 #X coords 0 0 1 1 250 175 0 0 0;

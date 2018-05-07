@@ -6,7 +6,6 @@
 #X obj 36 228 +~;
 #X obj 36 276 output;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#X obj -60 12 freeze;
 #X text 24 24 output;
 #X msg 144 276 \; pd-output open;
 #N canvas 606 167 567 383 more 0;
@@ -44,5 +43,5 @@
 #X connect 2 0 4 1;
 #X connect 3 0 4 0;
 #X connect 4 0 5 0;
-#X connect 5 0 10 0;
+#X connect 5 0 9 0;
 #X coords 0 0 1 1 250 175 0 0 0;

@@ -1,6 +1,5 @@
 #N canvas 676 138 418 360 12;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#X obj -60 12 freeze;
 #X text 24 24 GOP;
 #N canvas 575 279 440 109 \$0-template 0;
 #X obj 36 60 struct \$0-template float x float y float z float q;
@@ -70,5 +69,5 @@
 #X connect 1 0 0 0;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 288 204 pd more;
-#X connect 5 0 6 0;
+#X connect 4 0 5 0;
 #X coords 0 0 1 1 250 175 0 0 0;

@@ -4,7 +4,6 @@
 #X obj 36 240 pack 0 100;
 #X obj 36 396 output;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#X obj -60 12 freeze;
 #N canvas 572 234 320 217 init 0;
 #X obj 36 24 loadbang;
 #X obj 36 96 soundfiler;
@@ -34,12 +33,12 @@
 #X f 5;
 #X text 12 72 A scratch machine.;
 #X text 24 24 sampler (scratch);
-#X connect 0 0 10 0;
+#X connect 0 0 9 0;
 #X connect 1 0 2 0;
 #X connect 2 0 0 0;
-#X connect 8 0 1 1;
-#X connect 9 0 13 0;
-#X connect 10 0 3 0;
-#X connect 10 0 11 0;
-#X connect 13 0 1 0;
+#X connect 7 0 1 1;
+#X connect 8 0 12 0;
+#X connect 9 0 3 0;
+#X connect 9 0 10 0;
+#X connect 12 0 1 0;
 #X coords 0 0 1 1 250 175 0 0 0;

@@ -1,7 +1,6 @@
 #N canvas 583 154 300 326 12;
 #X obj 36 240 output;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#X obj -60 12 freeze;
 #X text 24 24 compressor;
 #N canvas 492 356 659 125 more 0;
 #X text 12 36 The "squelch" control limits the amplitude boost the algorithm will apply.;
@@ -72,7 +71,7 @@
 #X restore 36 204 pd fft;
 #X text 12 72 Dynamic range compression.;
 #X obj 36 108 looper bell.aiff;
-#X connect 6 0 7 1;
-#X connect 7 0 0 0;
-#X connect 9 0 7 0;
+#X connect 5 0 6 1;
+#X connect 6 0 0 0;
+#X connect 8 0 6 0;
 #X coords 0 0 1 1 250 175 0 0 0;

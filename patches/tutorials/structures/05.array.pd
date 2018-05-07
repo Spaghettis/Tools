@@ -1,7 +1,6 @@
 #N canvas 814 156 444 366 12;
 #X obj 36 216 pointer;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#X obj -60 12 freeze;
 #X text 24 24 array;
 #N canvas 310 346 451 166 \$0-data 1;
 #X coords 0 0 1 1 250 175 0 0 0;
@@ -116,9 +115,9 @@
 #X f 5;
 #X text 12 120 Nested arrays are prohibited.;
 #X text 12 96 The type of those elements is also defined by a template.;
-#X connect 0 0 13 0;
-#X connect 8 0 7 0;
-#X connect 10 0 11 0;
-#X connect 11 0 0 0;
-#X connect 13 0 14 0;
+#X connect 0 0 12 0;
+#X connect 7 0 6 0;
+#X connect 9 0 10 0;
+#X connect 10 0 0 0;
+#X connect 12 0 13 0;
 #X coords 0 0 1 1 250 175 0 0 0;

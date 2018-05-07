@@ -1,6 +1,5 @@
 #N canvas 557 238 598 323 12;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#X obj -60 12 freeze;
 #X text 24 24 lookup;
 #N canvas 464 234 313 322 init 0;
 #X obj 144 144 moses 2;
@@ -89,12 +88,12 @@
 #X connect 4 0 3 0;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 144 168 pd more;
-#X connect 5 0 3 0;
-#X connect 7 0 9 0;
-#X connect 7 0 11 0;
-#X connect 8 0 7 0;
-#X connect 9 0 10 0;
-#X connect 10 0 13 0;
-#X connect 11 0 12 0;
-#X connect 12 0 14 0;
+#X connect 4 0 2 0;
+#X connect 6 0 8 0;
+#X connect 6 0 10 0;
+#X connect 7 0 6 0;
+#X connect 8 0 9 0;
+#X connect 9 0 12 0;
+#X connect 10 0 11 0;
+#X connect 11 0 13 0;
 #X coords 0 0 1 1 250 175 0 0 0;

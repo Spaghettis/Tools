@@ -1,5 +1,4 @@
 #N canvas 502 140 465 536 12;
-#X obj -60 12 freeze;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
 #X text 24 24 graph on parent;
 #X text 12 72 A subpatch can be drawn on its parent patch.;
@@ -32,6 +31,6 @@
 #X text 12 240 Right-click and select the properties of the subpatch below.;
 #X f 60;
 #X obj 36 492 print;
-#X connect 4 0 5 0;
-#X connect 6 0 8 0;
+#X connect 3 0 4 0;
+#X connect 5 0 7 0;
 #X coords 0 0 1 1 250 175 0 0 0;

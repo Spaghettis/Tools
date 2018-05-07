@@ -37,9 +37,8 @@
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 108 pd pulse;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#X obj -60 12 freeze;
 #X text 24 24 delay (order);
-#X obj 108 132 nbx 5 40 0 127 0 0 empty empty empty 0 -7 0 10 #ffffff #000000 #000000 78 127;
+#X obj 108 132 nbx 5 40 0 127 0 0 empty empty empty 0 -7 0 10 #ffffff #000000 #000000 0 127;
 #N canvas 0 22 500 350 \$0-out 0;
 #X array \$0-out 128 float 0;
 #X coords 0 1 127 0 250 175 1 0 0;
@@ -65,8 +64,8 @@
 #X connect 6 0 1 0;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 192 pd reader;
-#X connect 0 0 9 0;
-#X connect 4 0 9 1;
-#X connect 6 0 7 0;
-#X connect 9 0 7 0;
+#X connect 0 0 8 0;
+#X connect 3 0 8 1;
+#X connect 5 0 6 0;
+#X connect 8 0 6 0;
 #X coords 0 0 1 1 250 175 0 0 0;

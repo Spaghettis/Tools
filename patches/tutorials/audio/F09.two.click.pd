@@ -4,7 +4,6 @@
 #X msg 96 228 13.5;
 #X msg 36 228 4;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#X obj -60 12 freeze;
 #X obj 36 108 dspstatus;
 #X obj 96 192 delay 200;
 #X obj 36 312 pack f 0;
@@ -47,12 +46,12 @@
 #X text 12 72 Clicks when changing the frequency quickly.;
 #X f 44;
 #X connect 0 0 3 0;
-#X connect 0 0 7 0;
-#X connect 2 0 8 0;
-#X connect 3 0 8 0;
-#X connect 6 0 0 0;
-#X connect 7 0 2 0;
-#X connect 8 0 11 0;
-#X connect 9 0 8 1;
-#X connect 11 0 1 0;
+#X connect 0 0 6 0;
+#X connect 2 0 7 0;
+#X connect 3 0 7 0;
+#X connect 5 0 0 0;
+#X connect 6 0 2 0;
+#X connect 7 0 10 0;
+#X connect 8 0 7 1;
+#X connect 10 0 1 0;
 #X coords 0 0 1 1 250 175 0 0 0;

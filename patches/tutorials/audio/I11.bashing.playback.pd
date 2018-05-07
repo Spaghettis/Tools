@@ -231,7 +231,6 @@
 #X connect 2 0 0 0;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 168 240 pd sample;
-#X obj -60 12 freeze;
 #X text 24 24 bashing (playback);
 #X obj 60 180 nbx 5 40 0 127 0 1 empty empty empty 0 -7 0 10 #ffffff #000000 #000000 49 127;
 #X obj 108 180 nbx 5 40 -12 12 0 1 empty empty empty 0 -7 0 10 #ffffff #000000 #000000 0 24;
@@ -239,8 +238,8 @@
 #X msg 36 132 0 \, 4000 8000;
 #X text 12 72 Overlapped (phase bashed) playback.;
 #X connect 1 0 0 0;
-#X connect 6 0 1 1;
-#X connect 7 0 1 2;
+#X connect 5 0 1 1;
+#X connect 6 0 1 2;
+#X connect 7 0 1 0;
 #X connect 8 0 1 0;
-#X connect 9 0 1 0;
 #X coords 0 0 1 1 250 175 0 0 0;

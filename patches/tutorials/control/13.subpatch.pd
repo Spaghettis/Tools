@@ -1,6 +1,5 @@
 #N canvas 596 164 562 424 12;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#X obj -60 12 freeze;
 #X text 12 72 You can nest entire windows inside boxes (and so on \, as deep as you wish).;
 #X f 74;
 #N canvas 631 202 304 193 hello 0;
@@ -46,8 +45,8 @@
 #X f 63;
 #X text 24 24 subpatch;
 #X text 12 324 It can be done also with a message.;
-#X connect 3 0 4 0;
-#X connect 5 0 8 0;
-#X connect 6 0 8 1;
-#X connect 8 0 7 0;
+#X connect 2 0 3 0;
+#X connect 4 0 7 0;
+#X connect 5 0 7 1;
+#X connect 7 0 6 0;
 #X coords 0 0 1 1 250 175 0 0 0;

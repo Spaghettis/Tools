@@ -21,7 +21,6 @@
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 120 348 pd hann;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#X obj -60 12 freeze;
 #N canvas 481 300 697 177 more 0;
 #X text 12 12 Here we use a white noise and apply a frequency-dependent gain \, which works as an equalizer.;
 #X f 92;
@@ -91,7 +90,7 @@
 #X obj 312 216 bng 15 250 50 0 empty empty empty 17 7 0 10 #ffffff #000000 #000000;
 #X text 24 24 resynthesis;
 #X text 12 72 Change the FFT spectrum \, and hear the Fourier resynthesis.;
-#X connect 1 0 6 0;
-#X connect 6 0 0 0;
-#X connect 9 0 8 0;
+#X connect 1 0 5 0;
+#X connect 5 0 0 0;
+#X connect 8 0 7 0;
 #X coords 0 0 1 1 250 175 0 0 0;

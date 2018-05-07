@@ -4,7 +4,6 @@
 #X obj 96 264 osc~;
 #X obj 96 228 *;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#X obj -60 12 freeze;
 #X text 24 24 pulse (ring);
 #X obj 36 108 nbx 5 40 0 2 0 0 empty empty empty 0 -7 0 10 #ffffff #000000 #000000 0 100;
 #N canvas 709 196 302 418 pulse 0;
@@ -70,12 +69,12 @@
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 60 384 pd fft;
 #X connect 0 0 1 0;
-#X connect 0 0 11 0;
-#X connect 0 0 14 0;
+#X connect 0 0 10 0;
+#X connect 0 0 13 0;
 #X connect 2 0 0 1;
 #X connect 3 0 2 0;
-#X connect 7 0 8 0;
-#X connect 8 0 0 0;
-#X connect 8 1 3 1;
-#X connect 9 0 3 0;
+#X connect 6 0 7 0;
+#X connect 7 0 0 0;
+#X connect 7 1 3 1;
+#X connect 8 0 3 0;
 #X coords 0 0 1 1 250 175 0 0 0;

@@ -13,7 +13,6 @@
 #X obj 36 252 +~;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
 #X text 24 24 beating;
-#X obj -60 12 freeze;
 #N canvas 597 190 507 480 more 0;
 #N canvas 0 22 500 350 \$0-c 0;
 #X array \$0-c 256 float 9;
@@ -55,10 +54,10 @@
 #X connect 6 0 2 1;
 #X connect 7 0 3 1;
 #X connect 8 0 1 1;
-#X connect 8 0 20 0;
+#X connect 8 0 19 0;
 #X connect 9 0 8 0;
-#X connect 9 0 17 0;
+#X connect 9 0 16 0;
 #X connect 10 0 8 1;
-#X connect 10 0 18 0;
+#X connect 10 0 17 0;
 #X connect 11 0 1 0;
 #X coords 0 0 1 1 250 175 0 0 0;

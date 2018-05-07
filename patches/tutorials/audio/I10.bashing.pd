@@ -153,7 +153,6 @@
 #X restore 36 240 graph \$0-nophase;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 168 168 pd tables;
-#X obj -60 12 freeze;
 #X connect 0 0 2 0;
 #X connect 0 0 3 0;
 #X connect 0 1 2 0;

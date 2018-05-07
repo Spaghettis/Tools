@@ -14,7 +14,6 @@
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 144 240 pd more;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#X obj -60 12 freeze;
 #X text 24 24 oversampling;
 #X text 12 72 Upsampling to control foldover.;
 #X obj 36 108 nbx 5 40 0 127 0 1 empty empty empty 0 -7 0 10 #ffffff #000000 #000000 48 127;
@@ -78,7 +77,7 @@
 #X connect 3 0 2 0;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 144 264 pd again;
-#X connect 1 0 8 0;
-#X connect 7 0 1 0;
-#X connect 8 0 0 0;
+#X connect 1 0 7 0;
+#X connect 6 0 1 0;
+#X connect 7 0 0 0;
 #X coords 0 0 1 1 250 175 0 0 0;

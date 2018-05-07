@@ -275,7 +275,7 @@
 #X text 144 564 Count bangs received.;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 132 pd flow;
-#N canvas 702 245 433 368 subpatch 0;
+#N canvas 661 245 433 368 subpatch 0;
 #N canvas 0 50 450 300 Patch 0;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 84 pd;
@@ -291,7 +291,6 @@
 #X text 168 156 Add an outlet.;
 #X text 168 180 Add a signal inlet.;
 #X text 168 204 Add a signal outlet.;
-#X obj 36 324 freeze;
 #X obj 36 228 samplerate;
 #X text 168 228 Get the audio sample rate.;
 #X text 168 324 Make a patch unchangeable.;
@@ -302,6 +301,7 @@
 #X obj 36 252 blocksize;
 #X text 168 252 Get the audio vector size.;
 #X text 168 108 Attach a patch to a name.;
+#X obj 36 324 freeze 1;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 108 pd subpatch;
 #N canvas 824 150 300 486 operators 0;
