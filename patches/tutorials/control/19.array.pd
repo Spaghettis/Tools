@@ -1,4 +1,4 @@
-#N canvas 470 114 475 647 12;
+#N canvas 465 150 473 541 12;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
 #X text 24 24 array;
 #X msg 312 120 \; \$0-array normalize;
@@ -9,7 +9,6 @@
 #X obj 36 456 array size \$0-array;
 #X obj 36 420 bng 15 250 50 0 empty empty empty 17 7 0 10 #ffffff #000000 #000000;
 #X obj 36 492 print;
-#X obj 36 600 soundfiler;
 #N canvas 0 22 500 350 \$0-array 0;
 #X array \$0-array 10 float 1;
 #A 0 -0.941864 -0.477515 0.593486 0.088833 -0.413249 0.708097 0.699051 -0.550027 -0.823267 -0.814535;
@@ -31,15 +30,19 @@
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 312 276 pd init;
 #X obj 312 240 bng 15 250 50 0 empty empty empty 17 7 0 10 #ffffff #000000 #000000;
-#X msg 36 564 read -resize voice.wav \$0-array;
-#X text 12 528 It can be used for control or either audio samples.;
-#X f 52;
 #X text 12 72 Unified way to manage and interact with lists of numbers.;
 #X f 57;
+#N canvas 435 261 402 133 more 0;
+#X obj 36 84 soundfiler;
+#X msg 36 48 read -resize voice.wav \$0-array;
+#X text 12 12 It can be used for control or either audio samples.;
+#X f 52;
+#X connect 1 0 0 0;
+#X coords 0 0 1 1 250 175 0 0 0;
+#X restore 312 456 pd more;
 #X connect 3 0 5 0;
 #X connect 4 0 3 0;
 #X connect 6 0 8 0;
 #X connect 7 0 6 0;
-#X connect 12 0 11 0;
-#X connect 13 0 9 0;
+#X connect 11 0 10 0;
 #X coords 0 0 1 1 250 175 0 0 0;
