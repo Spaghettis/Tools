@@ -1,4 +1,4 @@
-#N canvas 649 191 375 272 12;
+#N canvas 612 194 373 285 12;
 #X obj 264 144 pipe 2000;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
 #X text 24 24 time;
@@ -13,7 +13,7 @@
 #X obj 264 180 print;
 #X obj 144 180 print;
 #X obj 36 180 print;
-#N canvas 808 445 395 238 more 0;
+#N canvas 808 447 395 238 more 0;
 #X obj 36 156 timer;
 #X obj 84 120 delay 123.45;
 #X obj 36 48 bng 15 250 50 0 empty empty empty 17 7 0 10 #ffffff #000000 #000000;
