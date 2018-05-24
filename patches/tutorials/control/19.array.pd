@@ -32,14 +32,14 @@
 #X obj 312 240 bng 15 250 50 0 empty empty empty 17 7 0 10 #ffffff #000000 #000000;
 #X text 12 72 Unified way to manage and interact with lists of numbers.;
 #X f 57;
-#N canvas 435 261 402 133 more 0;
+#N canvas 691 469 300 133 more 0;
 #X obj 36 84 soundfiler;
 #X msg 36 48 read -resize voice.wav \$0-array;
-#X text 12 12 It can be used for control or either audio samples.;
-#X f 52;
+#X text 12 12 It can be used for audio samples.;
+#X f 34;
 #X connect 1 0 0 0;
 #X coords 0 0 1 1 250 175 0 0 0;
-#X restore 312 456 pd more;
+#X restore 312 168 pd more;
 #X connect 3 0 5 0;
 #X connect 4 0 3 0;
 #X connect 6 0 8 0;
