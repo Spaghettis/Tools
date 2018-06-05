@@ -129,6 +129,7 @@ tabwrite
 tabreceive
 array
 soundfiler
+soundinfo
 
 qlist
 textfile

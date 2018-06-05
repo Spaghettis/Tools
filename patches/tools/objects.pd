@@ -92,7 +92,7 @@
 #X text 132 564 Evaluate math expressions.;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 180 pd math;
-#N canvas 252 158 443 561 midi 0;
+#N canvas 252 160 443 561 midi 0;
 #X obj 36 84 notein;
 #X obj 36 108 ctlin;
 #X obj 36 132 pgmin;
@@ -144,7 +144,7 @@
 #X text 144 108 Convert message to OSC packets.;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 300 pd osc;
-#N canvas 417 176 511 251 array 0;
+#N canvas 701 165 514 274 array 0;
 #X obj 36 84 tabread;
 #X obj 36 108 tabread4;
 #X obj 36 132 tabwrite;
@@ -157,8 +157,10 @@
 #X text 168 84 Read numbers from an array.;
 #X text 168 156 Receive values of an array at change.;
 #X text 168 132 Write numbers to an array.;
-#X text 168 204 Read and write soundfiles from and to arrays.;
 #X text 168 180 Manipulate arrays (universal).;
+#X obj 36 228 soundinfo;
+#X text 168 228 Get properties of sound files.;
+#X text 168 204 Read and write sound files from and to arrays.;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 324 pd array;
 #N canvas 434 111 373 517 math~ 0;
