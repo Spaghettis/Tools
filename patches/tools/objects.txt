@@ -122,6 +122,7 @@ poly
 
 oscparse
 oscformat
+timestamp
 
 tabread
 tabred4
