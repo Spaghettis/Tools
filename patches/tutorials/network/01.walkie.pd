@@ -1,9 +1,9 @@
-#N canvas 298 231 303 311 12;
+#N canvas 369 217 300 333 12;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
 #X text 24 24 walkie;
 #X text 12 72 Measure latency of a network.;
-#X msg 36 132 disconnect;
-#X obj 36 264 netsend -udp -binary;
+#X msg 36 156 disconnect;
+#X obj 36 288 netsend -udp -binary;
 #X msg 36 108 connect localhost 3004;
 #N canvas 821 176 300 332 poll 0;
 #X obj 36 216 oscbundle;
@@ -23,11 +23,13 @@
 #X connect 5 0 4 0;
 #X connect 7 0 0 0;
 #X coords 0 0 1 1 250 175 0 0 0;
-#X restore 84 216 pd poll;
-#X obj 84 180 tgl 15 0 empty empty empty 0 0 0 10 #ffffff #000000 #000000 0 1;
+#X restore 84 240 pd poll;
+#X obj 84 204 tgl 15 0 empty empty empty 0 0 0 10 #ffffff #000000 #000000 0 1;
+#X msg 36 132 connect 192.168.0.13 3004;
 #X connect 3 0 4 0;
 #X connect 4 0 7 0;
 #X connect 5 0 4 0;
 #X connect 6 0 4 0;
 #X connect 7 0 6 0;
+#X connect 8 0 4 0;
 #X coords 0 0 1 1 250 175 0 0 0;
