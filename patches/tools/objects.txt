@@ -123,6 +123,7 @@ poly
 oscparse
 oscformat
 oscbundle
+oscstream
 timestamp
 
 tabread
