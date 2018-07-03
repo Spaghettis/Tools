@@ -227,6 +227,7 @@ drawcurve
 filledcurve
 drawnumber
 plot
+draw
 pointer
 get
 set
