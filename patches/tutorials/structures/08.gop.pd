@@ -3,7 +3,7 @@
 #X text 24 24 GOP;
 #N canvas 575 279 440 109 \$0-template 0;
 #X obj 36 60 struct \$0-template float x float y float z float q;
-#X obj 36 24 drawnumber z 0 0 q;
+#X obj 36 24 draw text -color q -- z;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 288 312 pd \$0-template;
 #N canvas 141 383 311 319 \$0-data 0;

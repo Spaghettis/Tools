@@ -1,7 +1,7 @@
 #N canvas 730 244 419 372 12;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
 #X text 24 24 scalars;
-#N canvas 339 395 319 208 foo 1;
+#N canvas 313 430 319 208 foo 1;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 108 pd foo;
 #X text 12 72 An empty subpatch.;
@@ -27,10 +27,7 @@
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 288 pd init;
 #N canvas 674 303 662 319 bar 0;
-#X obj 36 240 filledpolygon q q 3 0 0 20 z 40 0;
-#X f 33;
 #X obj 36 48 struct widget float x float y float z float q;
-#X obj 36 144 drawnumber z 50 -8 q;
 #X obj 36 216 tgl 15 1 empty empty empty 17 7 0 10 #ffffff #000000 #000000 1 1;
 #X obj 36 120 tgl 15 1 empty empty empty 17 7 0 10 #ffffff #000000 #000000 1 1;
 #X text 12 180 Arguments q and z are variables referring to the fields of the instance to draw.;
@@ -41,8 +38,11 @@
 #X f 76;
 #X text 12 84 Its name must be unique. You can have as many painters (as below) that you want.;
 #X f 81;
-#X connect 3 0 0 0;
-#X connect 4 0 2 0;
+#X obj 36 144 draw text -x 50 -y -8 -color q -- z;
+#X obj 36 240 draw polygon -fill -fillcolor q -color q -width 3 -- 0 0 20 z 40 0;
+#X f 66;
+#X connect 1 0 8 0;
+#X connect 2 0 7 0;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 180 pd bar;
 #X obj 36 252 bng 15 250 50 0 empty empty empty 17 7 0 10 #ffffff #000000 #000000;

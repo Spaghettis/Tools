@@ -28,11 +28,11 @@
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 204 312 pd \$0-data;
 #X obj 204 252 bng 15 250 50 0 empty empty empty 17 7 0 10 #ffffff #000000 #000000;
-#N canvas 754 378 423 147 \$0-template 0;
-#X obj 36 60 filledpolygon q q 3 0 0 20 z 40 0;
-#X f 33;
-#X obj 36 24 drawnumber z 50 -8 q;
+#N canvas 716 369 550 147 \$0-template 0;
 #X obj 36 96 struct \$0-widget float x float y float z float q;
+#X obj 36 24 draw text -x 50 -y -8 -color q -- z;
+#X obj 36 60 draw polygon -fill -fillcolor q -color q -width 3 -- 0 0 20 z 40 0;
+#X f 66;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 204 336 pd \$0-template;
 #X obj 96 264 bng 15 250 50 0 empty empty empty 17 7 0 10 #ffffff #000000 #000000;

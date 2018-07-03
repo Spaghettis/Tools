@@ -3,10 +3,10 @@
 #X text 24 24 append;
 #N canvas 767 500 384 113 \$0-template 0;
 #X obj 36 60 struct \$0-template float x float y symbol z;
-#X obj 36 24 drawsymbol z;
+#X obj 36 24 draw text z;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 300 396 pd \$0-template;
-#N canvas 304 345 311 319 \$0-data 1;
+#N canvas 253 313 311 319 \$0-data 1;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 300 372 pd \$0-data;
 #X obj 36 360 append \$0-template x y;
