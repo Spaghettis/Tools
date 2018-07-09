@@ -221,6 +221,7 @@ snapshot~
 env~
 
 struct
+drawcircle
 drawpolygon
 filledpolygon
 drawcurve
