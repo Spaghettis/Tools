@@ -1,6 +1,6 @@
-#N canvas 955 243 300 241 12;
+#N canvas 974 277 300 241 12;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
-#N canvas 301 231 525 432 \$0-data 1;
+#N canvas 301 231 524 379 \$0-data 1;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 168 pd \$0-data;
 #N canvas 625 334 309 275 init 0;
