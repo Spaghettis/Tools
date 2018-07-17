@@ -21,7 +21,7 @@
 #X connect 8 0 1 0;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 144 pd init;
-#N canvas 447 300 327 197 \$0-data 1;
+#N canvas 462 294 314 197 \$0-data 1;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 168 pd \$0-data;
 #X obj 36 108 bng 15 250 50 0 empty empty empty 17 7 0 10 #ffffff #000000 #000000;
