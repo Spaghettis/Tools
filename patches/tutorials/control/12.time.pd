@@ -1,4 +1,4 @@
-#N canvas 612 194 373 285 12;
+#N canvas 579 125 371 299 12;
 #X obj 264 144 pipe 2000;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
 #X text 24 24 time;
@@ -37,6 +37,15 @@
 #X connect 9 0 8 0;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 228 pd more;
+#N canvas 719 440 300 166 again 0;
+#X obj 36 84 timestamp;
+#X obj 36 48 bng 15 250 50 0 empty empty empty 0 0 0 10 #ffffff #000000 #000000;
+#X obj 36 120 print;
+#X text 12 12 Absolute time with NTP stamps.;
+#X connect 0 0 2 0;
+#X connect 1 0 0 0;
+#X coords 0 0 1 1 250 175 0 0 0;
+#X restore 36 252 pd again;
 #X connect 0 0 9 0;
 #X connect 4 0 11 0;
 #X connect 5 0 4 0;

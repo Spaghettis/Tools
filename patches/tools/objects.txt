@@ -221,6 +221,7 @@ snapshot~
 env~
 
 struct
+constructor
 drawcircle
 drawpolygon
 filledpolygon
@@ -230,9 +231,11 @@ drawnumber
 plot
 draw
 pointer
+fields
 get
 set
 element
 getsize
 setsize
 append
+scalars
