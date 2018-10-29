@@ -10,7 +10,7 @@
 #X obj 168 348 adsr 2 30 200 50 500;
 #X obj 168 192 adsr 1 10 200 50 500;
 #X obj 36 144 poly 1 1;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 subtractive;
 #X text 12 72 The classic subtractive synth sound.;
 #N canvas 307 216 346 458 phasor 0;

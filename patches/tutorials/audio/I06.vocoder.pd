@@ -10,7 +10,7 @@
 #X f 87;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 168 204 pd more;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 vocoder;
 #N canvas 528 181 671 297 hann 0;
 #X obj 36 252 tabwrite \$0-hann;

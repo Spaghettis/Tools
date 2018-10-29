@@ -2,7 +2,7 @@
 #X obj 36 276 +~;
 #X obj 120 240 *~ 0.7;
 #X obj 36 348 output;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 delay (feedback);
 #X text 12 72 Delays with feedback loop.;
 #X obj 120 108 nbx 5 40 0 500 0 1 empty empty empty 0 -7 0 10 #ffffff #000000 #000000 150 100;

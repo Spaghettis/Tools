@@ -2,7 +2,7 @@
 #X obj 264 192 line~;
 #X obj 264 168 pack 0 50;
 #X obj 36 372 output;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 PAF;
 #X obj 168 168 pack 0 50;
 #X obj 168 192 line~;

@@ -5,7 +5,7 @@
 #X obj 36 204 print;
 #X obj 180 540 print;
 #X msg 180 504 cis \$1 \, boom \$2 \, bah \$3;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 messages (more);
 #X obj 180 276 r number6;
 #X obj 276 276 r number2;

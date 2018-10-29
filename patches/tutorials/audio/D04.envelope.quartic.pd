@@ -2,7 +2,7 @@
 #X obj 36 180 osc~;
 #X obj 36 228 *~;
 #X obj 36 312 output;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 envelope (quartic);
 #X text 12 72 Quartic-shaped changes sound more uniform than linear ones.;
 #X obj 36 108 r \$0-frequency;

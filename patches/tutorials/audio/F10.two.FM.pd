@@ -1,6 +1,6 @@
 #N canvas 593 107 514 494 12;
 #X obj 36 408 output;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X obj 144 168 pack 0 50;
 #N canvas 0 22 500 350 \$0-spectrum 0;
 #X array \$0-spectrum 256 float 1;

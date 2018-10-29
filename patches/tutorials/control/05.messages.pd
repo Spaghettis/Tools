@@ -10,7 +10,7 @@
 #X obj 36 480 +;
 #X msg 36 420 1.2 3.4;
 #X msg 36 444 5 6;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 messages;
 #X floatatom 36 180 5 0 0 1 - - -;
 #X f 5;

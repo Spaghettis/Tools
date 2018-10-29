@@ -1,6 +1,6 @@
 #N canvas 538 169 387 352 12;
 #X obj 36 264 output;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 vocoder (phase);
 #X text 12 72 Phase vocoder for time stretching and contraction.;
 #N canvas 574 246 675 299 hann 0;

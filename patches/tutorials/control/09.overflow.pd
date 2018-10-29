@@ -4,7 +4,7 @@
 #X f 3;
 #X obj 84 384 + 1;
 #X obj 36 384 f;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 12 72 Control operations occurs depth first.;
 #X text 24 24 overflow;
 #X obj 252 264 print A;

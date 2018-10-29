@@ -1,5 +1,5 @@
 #N canvas 502 140 465 536 12;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 graph on parent;
 #X text 12 72 A subpatch can be drawn on its parent patch.;
 #N canvas 721 263 205 214 gop 0;

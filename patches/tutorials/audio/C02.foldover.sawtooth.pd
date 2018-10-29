@@ -5,7 +5,7 @@
 #X obj 36 192 *~ 20;
 #X obj 36 216 -~ 19;
 #X obj 36 168 phasor~;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #N canvas 325 379 303 155 init 0;
 #X obj 36 24 inlet;
 #X msg 36 96 \; \$0-pitch 67;

@@ -1,7 +1,7 @@
 #N canvas 609 128 355 474 12;
 #X obj 36 288 +~;
 #X obj 36 384 output;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 delay (variable);
 #X text 12 72 Fuzzed FM generator with a variable delay.;
 #X floatatom 36 108 5 0 0 1 - #0-pitch -;

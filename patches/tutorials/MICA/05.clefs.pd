@@ -1,5 +1,5 @@
 #N canvas 587 173 427 559 12;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X obj 36 192 mica sequence;
 #X obj 36 168 mica;
 #X obj 36 216 mica get;

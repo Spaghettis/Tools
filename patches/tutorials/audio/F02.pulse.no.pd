@@ -8,7 +8,7 @@
 #X obj 156 228 +~ 0.5;
 #X obj 156 168 lop~ 130;
 #X obj 156 192 *~ 6;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X obj 36 372 output;
 #X obj 156 108 phasor~ -4;
 #X obj 36 144 phasor~ 220;

@@ -16,7 +16,7 @@
 #X obj 36 396 +~;
 #X obj 36 444 +~;
 #X f 3;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 trapezoids;
 #X text 12 72 Making trapezoidal waves from sawtooth waves.;
 #N canvas 453 251 664 100 more 0;

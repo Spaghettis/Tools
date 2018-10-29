@@ -3,7 +3,7 @@
 #X obj 36 384 output;
 #X msg 96 228 13.5;
 #X msg 36 228 4;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X obj 36 108 dspstatus;
 #X obj 96 192 delay 200;
 #X obj 36 312 pack f 0;

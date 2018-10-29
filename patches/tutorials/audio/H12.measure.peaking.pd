@@ -28,7 +28,7 @@
 #X msg 36 312 bang \; pd dsp 1;
 #X floatatom 36 420 5 0 0 1 - - -;
 #X f 5;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X obj 372 324 nbx 5 40 0 1 0 1 empty empty empty 0 -7 0 10 #ffffff #000000 #000000 0.2 100;
 #X obj 336 324 nbx 5 40 0 1 0 1 empty empty empty 0 -7 0 10 #ffffff #000000 #000000 0.6 100;
 #X obj 408 324 nbx 5 40 -90 90 0 1 empty empty empty 0 -7 0 10 #ffffff #000000 #000000 60 180;

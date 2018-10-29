@@ -1,7 +1,7 @@
 #N canvas 521 109 527 491 12;
 #X obj 36 144 mtof;
 #X obj 36 396 output;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 12 72 A simple wavetable oscillator.;
 #X floatatom 36 108 5 0 0 1 - #0-pitch -;
 #X f 5;

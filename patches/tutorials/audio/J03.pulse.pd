@@ -7,7 +7,7 @@
 #X text 36 48 This patch demonstrates pulse width modulation \, which is accomplished simply by subtracting two sawtooth waves at a varying phase difference. Here their frequencies are set to differ by 1/5 Hz. so that the relative phase wanders continuously.;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 120 384 pd more;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 pulse;
 #X text 12 72 Classical pulse width modulation.;
 #N canvas 0 22 500 350 \$0-phasor1 0;

@@ -1,7 +1,7 @@
 #N canvas 670 124 300 447 12;
 #X obj 36 324 osc~;
 #X obj 36 276 line~;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 envelope (portamento);
 #X obj 36 360 output;
 #X obj 36 300 mtof~;

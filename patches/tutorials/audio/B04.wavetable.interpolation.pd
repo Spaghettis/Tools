@@ -1,7 +1,7 @@
 #N canvas 713 161 491 524 12;
 #X obj 36 180 +~ 1;
 #X obj 36 156 *~ 8;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 wavetable (interpolation);
 #N canvas 524 312 480 175 init 0;
 #X obj 96 24 loadbang;

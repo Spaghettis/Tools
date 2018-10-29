@@ -1,6 +1,6 @@
 #N canvas 793 142 404 462 12;
 #X obj 36 372 output;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 PAF (alternate);
 #N canvas 652 260 300 345 waves 0;
 #N canvas 481 125 300 370 wave 0;

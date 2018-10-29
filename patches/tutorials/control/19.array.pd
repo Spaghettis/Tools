@@ -1,5 +1,5 @@
 #N canvas 465 150 473 541 12;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 array;
 #X msg 312 120 \; \$0-array normalize;
 #X obj 36 348 tabread \$0-array;

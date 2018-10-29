@@ -1,5 +1,5 @@
 #N canvas 517 107 568 362 12;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #N canvas 0 22 500 350 \$0-multislider 0;
 #X array \$0-multislider 6 float 3;
 #A 0 -0.257143 0.588571 -0.28 0.622857 -0.0857143 0.428571;

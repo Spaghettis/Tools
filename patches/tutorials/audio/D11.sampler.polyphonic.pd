@@ -20,7 +20,7 @@
 #X obj 228 180 route 1 2 3 4 5 6 7 8;
 #X obj 36 504 output;
 #X obj 324 468 print;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 sampler (polyphonic);
 #N canvas 279 277 322 225 dispatch 0;
 #X obj 36 24 inlet;

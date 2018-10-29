@@ -5,7 +5,7 @@
 #X obj 36 228 adsr 100 50 200 90 1000;
 #X obj 228 228 adsr 20 200 100 100 1000;
 #X obj 36 432 output;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 envelope (pitch);
 #X obj 132 312 mtof~;
 #X obj 36 312 dbtoamp~;

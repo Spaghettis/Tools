@@ -1,5 +1,5 @@
-#N canvas 709 104 300 611 12;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#N canvas 611 114 317 609 12;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 notes (again);
 #X obj 36 144 mica;
 #X msg 36 108 G \, Flat \, 3;

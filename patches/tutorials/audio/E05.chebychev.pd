@@ -6,7 +6,7 @@
 #X obj 120 192 line~;
 #X obj 36 276 *~ 128;
 #X obj 36 300 +~ 129;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 Chebychev;
 #X text 12 72 Waveshaping with Chebychev polynomials.;
 #N canvas 0 22 500 350 \$0-table 0;

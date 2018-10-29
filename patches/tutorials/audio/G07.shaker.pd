@@ -9,7 +9,7 @@
 #X obj 36 144 phasor~ 80;
 #X floatatom 36 108 5 30 1000 0 - - -;
 #X f 5;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 shaker;
 #X text 12 72 The "shaker" (time-varying comb filter).;
 #N canvas 936 155 313 491 control 0;

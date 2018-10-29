@@ -1,5 +1,5 @@
 #N canvas 482 248 491 320 12;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 wavetable (switching);
 #X obj 36 252 tabosc4~ \$0-array1;
 #X msg 72 180 set \$0-array1;

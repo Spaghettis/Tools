@@ -20,7 +20,7 @@
 #X connect 6 0 2 0;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 120 348 pd hann;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #N canvas 481 300 697 177 more 0;
 #X text 12 12 Here we use a white noise and apply a frequency-dependent gain \, which works as an equalizer.;
 #X f 92;

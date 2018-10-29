@@ -1,6 +1,6 @@
 #N canvas 534 238 364 315 12;
 #X obj 36 228 output;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 delay (blocksize);
 #N canvas 461 377 662 146 more 0;
 #X text 12 12 When a delay read feeds back to a delay write \, the minimum possible delay is one block.;

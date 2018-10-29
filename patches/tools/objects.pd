@@ -1,7 +1,7 @@
-#N canvas 318 287 340 417 12;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#N canvas 318 274 340 417 12;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 objects;
-#N canvas 108 165 537 331 gui 1;
+#N canvas 558 221 537 331 gui 0;
 #X text 360 84 comment;
 #X floatatom 36 144 5 0 0 1 - - -;
 #X f 5;
@@ -11,7 +11,7 @@
 #X coords 0 1 11 -1 250 175 1 0 0;
 #X restore 264 132 graph \$0-array;
 #X msg 444 84 message;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 GUI;
 #X obj 180 156 bng 15 250 50 0 empty empty empty 17 7 0 10 #ffffff #000000 #000000;
 #X obj 180 192 tgl 15 0 empty empty empty 17 7 0 10 #ffffff #000000 #000000 0 1;
@@ -37,7 +37,7 @@
 #X obj 36 156 timer;
 #X obj 36 180 realtime;
 #X obj 36 204 pipe;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 time;
 #X text 132 84 Send a message after a time delay.;
 #X text 132 108 Send a bang periodically.;
@@ -66,7 +66,7 @@
 #X obj 36 276 pow;
 #X obj 36 300 %;
 #X obj 36 468 wrap;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 math;
 #X obj 36 540 expr;
 #X text 132 84 Sine.;
@@ -112,7 +112,7 @@
 #X obj 36 420 midiout;
 #X obj 36 444 makenote;
 #X obj 36 468 stripnote;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 MIDI;
 #X text 168 108 Control change in.;
 #X text 168 132 Program change in.;
@@ -140,7 +140,7 @@
 #N canvas 603 209 418 231 osc 0;
 #X obj 36 84 oscparse;
 #X obj 36 108 oscformat;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 Open Sound Control;
 #X text 144 84 Parse OSC packets into messages.;
 #X text 144 108 Convert message to OSC packets.;
@@ -157,7 +157,7 @@
 #X obj 36 108 tabread4;
 #X obj 36 132 tabwrite;
 #X obj 36 204 soundfiler;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 array;
 #X text 168 108 Alternate with 4-point interpolation.;
 #X obj 36 180 array;
@@ -186,7 +186,7 @@
 #X obj 36 396 abs~;
 #X obj 36 252 sqrt~;
 #X obj 36 180 cos~;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 math~;
 #X obj 36 276 rsqrt~;
 #X text 120 276 Inverse square root.;
@@ -222,7 +222,7 @@
 #X obj 36 276 cpole~;
 #X obj 36 300 czero~;
 #X obj 36 324 czero_rev~;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 filters~;
 #X text 156 84 Voltage controlled.;
 #X text 156 108 High-pass.;
@@ -257,7 +257,7 @@
 #X obj 36 540 list;
 #X obj 36 444 uzi;
 #X obj 36 516 prepend;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 flow (aka glue);
 #X text 144 108 Store and recall a number.;
 #X text 144 132 Store and recall a symbol.;
@@ -294,7 +294,7 @@
 #X obj 36 180 inlet~;
 #X obj 36 204 outlet~;
 #X obj 36 108 namecanvas;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 subpatch;
 #X text 168 84 Define a subpatch.;
 #X text 168 132 Add an inlet.;
@@ -331,7 +331,7 @@
 #X obj 36 348 ||;
 #X obj 36 372 <<;
 #X obj 36 396 >>;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 96 84 Addition.;
 #X text 96 108 Subtraction.;
 #X text 96 132 Multiplication.;
@@ -356,7 +356,7 @@
 #X obj 36 108 ftom;
 #X obj 36 132 powtodb;
 #X obj 36 156 dbtopow;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 132 84 MIDI to frequency.;
 #X text 132 108 Frequency to MIDI.;
 #X text 132 132 Power to decibel.;
@@ -372,7 +372,7 @@
 #X obj 36 84 qlist;
 #X obj 36 108 textfile;
 #X obj 36 132 text;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 text;
 #X text 132 84 Text-based sequencer.;
 #X text 132 108 Read and write text (messages) files.;
@@ -390,7 +390,7 @@
 #X obj 36 348 keyname;
 #X obj 36 276 makefilename;
 #X obj 36 84 print;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 miscellaneous;
 #X text 168 84 Print messages to the console.;
 #X text 168 180 Send messages over the internet.;
@@ -425,7 +425,7 @@
 #X obj 36 444 getsize;
 #X obj 36 468 setsize;
 #X obj 36 492 append;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 168 84 Declare a template.;
 #X text 168 156 Draw a scalar as a polygon.;
 #X text 168 180 Draw a scalar as a filled polygon.;
@@ -457,7 +457,7 @@
 #X obj 36 84 delwrite~;
 #X obj 36 108 delread~;
 #X obj 36 132 vd~;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 delay~;
 #X text 144 84 Write to a delay line.;
 #X text 144 108 Read from a delay line.;
@@ -474,7 +474,7 @@
 #X obj 36 252 tabosc4~;
 #X obj 36 276 tabsend~;
 #X obj 36 300 tabreceive~;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 generators~;
 #X text 156 84 Sawtooth oscillator.;
 #X text 156 108 Cosine oscillator.;
@@ -492,7 +492,7 @@
 #N canvas 780 271 331 202 acoustic~ 0;
 #X obj 36 84 mtof~;
 #X obj 36 108 ftom~;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 acoustic~;
 #X text 144 84 MIDI to frequency.;
 #X text 144 108 Frequency to MIDI.;
@@ -508,7 +508,7 @@
 #X obj 36 132 rfft~;
 #X obj 36 156 rifft~;
 #X obj 36 180 framp~;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 fft~;
 #X text 120 84 Complex DFT (Discrete Fourier Transform).;
 #X text 120 108 Inverse of Complex DFT (Discrete Fourier Transform).;
@@ -525,7 +525,7 @@
 #X obj 36 84 bang~;
 #X obj 36 108 block~;
 #X obj 36 132 switch~;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 156 84 Bang after each DSP block.;
 #X text 156 108 Modify the block size in a subpatch.;
 #X text 156 132 Switch DSP computation on and off.;
@@ -539,7 +539,7 @@
 #X obj 36 156 receive~;
 #X obj 36 180 throw~;
 #X obj 36 204 catch~;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 132 132 One-to-many nonlocal signal connections.;
 #X text 132 156 Fetch the signal sent.;
 #X text 132 180 Many-to-one summing bus.;
@@ -557,7 +557,7 @@
 #X obj 36 132 vline~;
 #X obj 36 180 snapshot~;
 #X obj 36 156 threshold~;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 156 156 Detect signal thresholds.;
 #X text 156 180 Convert a signal to a number.;
 #X obj 36 204 env~;
@@ -571,7 +571,7 @@
 #N canvas 450 279 430 204 miscellaneous~ 0;
 #X obj 36 132 readsf~;
 #X obj 36 156 writesf~;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 144 132 Read a soundfile.;
 #X text 144 156 Write streaming audio to disk.;
 #X text 24 24 miscellaneous~;

@@ -21,7 +21,7 @@
 #X f 84;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 216 456 pd more;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X obj 144 288 nbx 5 40 0 20 0 1 empty empty empty 0 -7 0 10 #ffffff #000000 #000000 2 20;
 #N canvas 871 213 300 160 init 0;
 #X msg 36 108 \; \$0-frequency 100;

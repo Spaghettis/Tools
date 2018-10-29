@@ -13,7 +13,7 @@
 #X restore 144 360 pd sample;
 #X obj 36 180 metro 1000;
 #X obj 36 360 output;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 delay;
 #X text 12 72 Delay a signal.;
 #X obj 36 108 dspstatus;

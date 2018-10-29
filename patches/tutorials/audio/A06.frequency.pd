@@ -1,6 +1,6 @@
 #N canvas 511 168 478 364 12;
 #X obj 36 276 output;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 frequency;
 #N canvas 0 22 500 350 \$0-out 0;
 #X array \$0-out 256 float 1;

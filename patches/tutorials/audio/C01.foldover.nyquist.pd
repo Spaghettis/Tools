@@ -2,7 +2,7 @@
 #X obj 36 168 line~;
 #X msg 36 132 500 \, 1423 4000;
 #X obj 36 348 output;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #N canvas 518 400 703 180 more 0;
 #X text 12 60 Also \, partials can come into contact with each other causing beating.;
 #X f 69;

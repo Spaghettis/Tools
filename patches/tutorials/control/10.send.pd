@@ -7,7 +7,7 @@
 #X obj 180 228 receive pickles;
 #X obj 36 480 r crackers;
 #X obj 36 456 s crackers;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 send;
 #X floatatom 36 108 5 0 0 1 - - -;
 #X f 5;

@@ -1,5 +1,5 @@
 #N canvas 676 138 418 360 12;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 GOP;
 #N canvas 262 401 439 252 \$0-template 0;
 #X obj 36 60 struct \$0-template float x float y float z float q;

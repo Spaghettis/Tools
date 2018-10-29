@@ -1,7 +1,7 @@
 #N canvas 731 208 355 385 12;
 #X obj 36 228 pointer;
 #X msg 72 180 next;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 get;
 #N canvas 326 384 327 197 \$0-data 1;
 #X coords 0 0 1 1 250 175 0 0 0;

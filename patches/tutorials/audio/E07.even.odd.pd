@@ -14,7 +14,7 @@
 #X f 81;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 96 240 pd more;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X obj 96 144 nbx 5 40 0 0.25 0 1 empty empty empty 0 -7 0 10 #ffffff #000000 #000000 0.11 25;
 #X obj 36 216 +~;
 #N canvas 543 143 655 421 play 0;

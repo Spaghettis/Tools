@@ -118,7 +118,7 @@
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 84 252 pd reverb;
 #X obj 36 300 output;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 reverb;
 #X text 12 72 Simple recirculating reverberator.;
 #X obj 156 192 nbx 5 40 0 100 0 1 empty empty empty 0 -7 0 10 #ffffff #000000 #000000 65 100;

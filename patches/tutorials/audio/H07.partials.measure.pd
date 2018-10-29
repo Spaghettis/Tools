@@ -5,7 +5,7 @@
 #X floatatom 180 228 7 0 0 0 - - -;
 #X f 7;
 #X obj 180 420 env~ 4096;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X obj 180 276 nbx 5 40 1 20 0 1 empty empty empty 0 -7 0 10 #ffffff #000000 #000000 10 19;
 #X floatatom 180 180 5 0 0 1 - - -;
 #X f 5;

@@ -1,6 +1,6 @@
 #N canvas 521 150 613 582 12;
 #X obj 108 300 +~ 1;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #N canvas 725 109 359 525 init 0;
 #X obj 36 180 loadbang;
 #X obj 36 252 soundfiler;

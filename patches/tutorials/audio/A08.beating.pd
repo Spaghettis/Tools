@@ -11,7 +11,7 @@
 #X obj 264 108 osc~ 587;
 #X obj 264 132 osc~ 587.25;
 #X obj 36 252 +~;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 beating;
 #N canvas 597 190 507 480 more 0;
 #N canvas 0 22 500 350 \$0-c 0;

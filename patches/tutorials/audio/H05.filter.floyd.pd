@@ -3,7 +3,7 @@
 #X obj 156 168 pack 0 100;
 #X obj 36 348 vcf~;
 #X obj 36 456 output;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 filter (floyd);
 #X obj 156 216 mtof~;
 #N canvas 769 476 349 192 init 0;

@@ -1,6 +1,6 @@
 #N canvas 579 125 371 299 12;
 #X obj 264 144 pipe 2000;
-#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #cccccc #000000;
+#X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 time;
 #X text 12 72 Objects for dealing with time.;
 #X f 31;
