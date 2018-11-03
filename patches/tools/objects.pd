@@ -15,8 +15,8 @@
 #X text 24 24 GUI;
 #X obj 180 156 bng 15 250 50 0 empty empty empty 17 7 0 10 #ffffff #000000 #000000;
 #X obj 180 192 tgl 15 0 empty empty empty 17 7 0 10 #ffffff #000000 #000000 0 1;
-#X obj 144 132 vradio 15 1 0 8 empty empty empty 17 7 0 10 #ffffff #000000 #000000 1;
-#X obj 144 84 hradio 15 1 0 8 empty empty empty 0 -7 0 10 #ffffff #000000 #000000 1;
+#X obj 144 132 vradio 15 1 0 8 empty empty empty 17 7 0 10 #ffffff #000000 #000000 0;
+#X obj 144 84 hradio 15 1 0 8 empty empty empty 0 -7 0 10 #ffffff #000000 #000000 0;
 #X obj 108 144 vslider 15 128 0 127 0 0 empty empty empty 17 7 0 10 #ffffff #000000 #000000 0 0;
 #X obj 108 288 hslider 128 15 0 127 0 0 empty empty empty 0 -7 0 10 #ffffff #000000 #000000 0 0;
 #X obj 36 84 nbx 5 40 0 127 0 1 empty empty empty 0 -7 0 10 #ffffff #000000 #000000 6 127;
@@ -47,7 +47,7 @@
 #X text 132 204 Delay line for numbers (or messages).;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 228 pd time;
-#N canvas 347 112 366 613 math 0;
+#N canvas 347 112 368 636 math 0;
 #X obj 36 348 mod;
 #X obj 36 324 div;
 #X obj 36 84 sin;
@@ -68,7 +68,7 @@
 #X obj 36 468 wrap;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 math;
-#X obj 36 540 expr;
+#X obj 36 564 expr;
 #X text 132 84 Sine.;
 #X text 132 108 Cosine.;
 #X text 132 132 Tangent.;
@@ -87,11 +87,13 @@
 #X obj 36 492 int;
 #X text 132 492 Integer part.;
 #X text 132 516 Pseudorandom number.;
-#X text 132 540 Evaluate math expressions.;
+#X text 132 564 Evaluate math expressions.;
 #X text 132 420 Force a number into a range.;
 #X text 132 180 Arctangent (alternate).;
-#X obj 36 564 vexpr;
-#X text 132 564 Evaluate math expressions.;
+#X obj 36 588 vexpr;
+#X text 132 588 Evaluate math expressions.;
+#X obj 36 540 urn;
+#X text 132 540 Non-repeating random.;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 180 pd math;
 #N canvas 252 160 443 561 midi 0;

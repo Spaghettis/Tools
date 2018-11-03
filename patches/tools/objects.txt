@@ -59,6 +59,7 @@ abs
 wrap
 int
 random
+urn
 expr
 vexpr
 
