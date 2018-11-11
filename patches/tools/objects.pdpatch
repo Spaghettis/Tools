@@ -1,7 +1,7 @@
-#N canvas 318 274 340 417 12;
+#N canvas 521 211 340 417 12;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X text 24 24 objects;
-#N canvas 558 221 537 331 gui 0;
+#N canvas 499 150 537 331 gui 0;
 #X text 360 84 comment;
 #X floatatom 36 144 5 0 0 1 - - -;
 #X f 5;
@@ -154,7 +154,7 @@
 #X text 144 156 Format OSC for TCP.;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 300 pd osc;
-#N canvas 701 165 514 274 array 0;
+#N canvas 701 165 521 277 array 0;
 #X obj 36 84 tabread;
 #X obj 36 108 tabread4;
 #X obj 36 132 tabwrite;
@@ -287,7 +287,7 @@
 #X text 144 564 Count bangs received.;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 132 pd flow;
-#N canvas 661 245 433 368 subpatch 0;
+#N canvas 546 217 430 375 subpatch 0;
 #N canvas 0 50 450 300 Patch 0;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 84 pd;
@@ -353,7 +353,7 @@
 #X text 24 24 operators;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 252 pd operators;
-#N canvas 898 325 319 251 acoustic 0;
+#N canvas 348 281 319 251 acoustic 0;
 #X obj 36 84 mtof;
 #X obj 36 108 ftom;
 #X obj 36 132 powtodb;
@@ -370,7 +370,7 @@
 #X obj 36 180 amptodb;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 156 pd acoustic;
-#N canvas 699 278 425 179 text 0;
+#N canvas 591 303 420 174 text 0;
 #X obj 36 84 qlist;
 #X obj 36 108 textfile;
 #X obj 36 132 text;
