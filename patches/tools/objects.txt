@@ -25,7 +25,6 @@ unpack
 trigger
 spigot
 moses
-until
 uzi
 change
 swap
@@ -141,7 +140,6 @@ text
 
 block~
 switch~
-bang~
 
 dac~
 adc~
