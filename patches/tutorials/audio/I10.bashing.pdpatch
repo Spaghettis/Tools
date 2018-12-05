@@ -1,5 +1,5 @@
-#N canvas 579 157 301 362 12;
-#N canvas 505 145 462 493 fft 0;
+#N canvas 574 153 301 362 12;
+#N canvas 735 131 462 493 fft 0;
 #X obj 36 96 *~;
 #X obj 36 24 inlet~;
 #X obj 36 132 rfft~;
@@ -47,7 +47,7 @@
 #X connect 11 0 7 0;
 #X connect 12 0 1 0;
 #X coords 0 0 1 1 250 175 0 0 0;
-#X restore 252 180 pd sync;
+#X restore 252 168 pd sync;
 #X connect 0 0 2 0;
 #X connect 1 0 0 0;
 #X connect 2 0 14 0;
@@ -70,7 +70,6 @@
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 180 pd fft;
 #X f 6;
-#X obj 36 108 bng 15 250 50 0 empty empty empty 0 -6 0 8 #fcfcfc #000000 #000000;
 #X obj 60 240 tabwrite~ \$0-nophase;
 #X obj 36 276 output;
 #N canvas 344 219 816 127 more 0;
@@ -153,9 +152,10 @@
 #X restore 36 240 graph \$0-nophase;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 168 168 pd tables;
+#X obj 36 108 bng 15 250 50 0 empty empty empty 0 0 0 10 #ffffff #000000 #000000;
+#X connect 0 0 1 0;
 #X connect 0 0 2 0;
-#X connect 0 0 3 0;
-#X connect 0 1 2 0;
-#X connect 1 0 9 0;
-#X connect 9 0 0 0;
+#X connect 0 1 1 0;
+#X connect 8 0 0 0;
+#X connect 10 0 8 0;
 #X coords 0 0 1 1 250 175 0 0 0;
