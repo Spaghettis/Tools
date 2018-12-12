@@ -9,11 +9,11 @@
 #X f 5;
 #X obj 144 180 *~;
 #N canvas 419 428 698 102 more 0;
-#X text 12 12 An envelope follower measures the mean square power of an signal as it changes over time.;
-#X f 90;
 #X text 12 36 The term "mean square" means simply that the signal should be squared \, and then averaged.;
 #X f 89;
 #X text 12 60 The averageing is done using a low-pass filter such as lop~.;
+#X text 12 12 An envelope follower measures the mean square power of a signal as it changes over time.;
+#X f 90;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 192 228 pd more;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;

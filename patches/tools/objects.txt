@@ -213,7 +213,6 @@ czero_rev~
 
 sig~
 line~
-vline~
 threshold~
 snapshot~
 env~

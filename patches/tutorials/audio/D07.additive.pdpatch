@@ -1,4 +1,4 @@
-#N canvas 613 128 345 568 12;
+#N canvas 577 112 355 570 12;
 #X obj 36 480 output;
 #X obj 36 156 partial 1 1 0.56 0;
 #X obj 36 180 partial 0.67 0.9 0.56 1;
