@@ -1,4 +1,4 @@
-#N canvas 522 179 608 496 12;
+#N canvas 578 238 608 496 12;
 #X obj 36 108 phasor~ 50;
 #X obj 36 324 *~;
 #X obj 36 372 wrap~;
@@ -40,8 +40,8 @@
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 132 252 pd envelope;
 #N canvas 0 22 500 350 \$0-envelope 0;
-#X array \$0-envelope 4410 float 2;
-#X coords 0 10 4410 0 250 175 1 0 0;
+#X array \$0-envelope 4410 float 0;
+#X coords 0 10 4409 0 250 175 1 0 0;
 #X restore 336 108 graph \$0-envelope;
 #X obj 132 324 tabwrite~ \$0-envelope 250;
 #X connect 0 0 3 0;

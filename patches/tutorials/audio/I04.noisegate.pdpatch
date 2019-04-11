@@ -1,4 +1,4 @@
-#N canvas 550 124 480 486 12;
+#N canvas 503 108 480 486 12;
 #X obj 36 396 output;
 #N canvas 221 363 674 104 more 0;
 #X text 12 12 First you need to estimate the background noise spectrum.;
@@ -16,8 +16,8 @@
 #X obj 36 24 loadbang;
 #X obj 36 132 t f f;
 #N canvas 0 22 500 350 \$0-hann 0;
-#X array \$0-hann 1024 float 2;
-#X coords 0 1 1024 0 250 175 1 0 0;
+#X array \$0-hann 1024 float 0;
+#X coords 0 1 1023 0 250 175 1 0 0;
 #X restore 396 36 graph \$0-hann;
 #X obj 36 60 bng 15 250 50 0 empty empty empty 17 7 0 10 #ffffff #000000 #000000;
 #X obj 36 96 uzi 1024;
@@ -165,8 +165,8 @@
 #X obj 84 300 tgl 15 0 empty \$0-apply empty 17 7 0 10 #ffffff #000000 #000000 0 15;
 #X obj 108 300 bng 15 250 50 0 empty \$0-compute empty 17 7 0 10 #ffffff #000000 #000000;
 #N canvas 0 22 500 350 \$0-mask 0;
-#X array \$0-mask 512 float 2;
-#X coords 0 128 512 0 250 175 1 0 0;
+#X array \$0-mask 512 float 0;
+#X coords 0 128 511 0 250 175 1 0 0;
 #X restore 204 204 graph \$0-mask;
 #X obj 36 144 qlist denoiser.txt;
 #X msg 36 108 rewind \, bang;

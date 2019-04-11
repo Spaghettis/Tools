@@ -1,4 +1,4 @@
-#N canvas 468 134 574 570 12;
+#N canvas 175 136 574 570 12;
 #X obj 120 228 +~ 1;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #N canvas 718 186 359 525 init 0;
@@ -19,8 +19,8 @@
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 300 360 pd init;
 #N canvas 0 22 500 350 \$0-out 0;
-#X array \$0-out 4096 float 2;
-#X coords 0 1 4096 -1 250 175 1 0 0;
+#X array \$0-out 4096 float 0;
+#X coords 0 1 4095 -1 250 175 1 0 0;
 #X restore 300 120 graph \$0-out;
 #X obj 120 360 tabread4~ \$0-table;
 #X obj 36 144 phasor~;

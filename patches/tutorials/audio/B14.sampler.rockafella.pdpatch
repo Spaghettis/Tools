@@ -1,4 +1,4 @@
-#N canvas 508 126 351 546 12;
+#N canvas 532 258 351 546 12;
 #X obj 36 456 output;
 #X obj 12 12 cnv 15 275 45 empty empty empty 0 -7 0 10 #ffd300 #000000;
 #X floatatom 96 144 5 0 0 1 - #0-chunk -;
@@ -43,8 +43,8 @@
 #X obj 36 24 inlet~;
 #X obj 156 240 tabwrite~ \$0-phase 1000;
 #N canvas 0 22 500 350 \$0-phase 0;
-#X array \$0-phase 22050 float 2;
-#X coords 0 1 22050 0 250 175 1 0 0;
+#X array \$0-phase 22050 float 0;
+#X coords 0 1 22049 0 250 175 1 0 0;
 #X restore 372 252 graph \$0-phase;
 #X connect 0 0 10 0;
 #X connect 1 0 7 0;

@@ -1,4 +1,4 @@
-#N canvas 569 166 502 438 12;
+#N canvas 368 113 502 438 12;
 #X obj 36 348 output;
 #X obj 36 312 *~;
 #X f 3;
@@ -9,8 +9,8 @@
 #X obj 120 180 metro 500;
 #X obj 120 108 dspstatus;
 #N canvas 0 22 500 350 \$0-zipper 0;
-#X array \$0-zipper 22050 float 2;
-#X coords 0 1 22050 0 250 175 1 0 0;
+#X array \$0-zipper 22050 float 0;
+#X coords 0 1 22049 0 250 175 1 0 0;
 #X restore 228 120 graph \$0-zipper;
 #X obj 120 312 tabwrite~ \$0-zipper 750;
 #X text 12 72 No zipper noise using a ramp with a signal object.;

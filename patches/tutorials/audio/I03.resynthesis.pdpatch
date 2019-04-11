@@ -8,8 +8,8 @@
 #X obj 36 132 t f f;
 #X obj 144 192 expr (-cos(($f1/256)*pi)/2)+0.5;
 #N canvas 0 22 500 350 \$0-hann 0;
-#X array \$0-hann 512 float 2;
-#X coords 0 1 512 0 250 175 1 0 0;
+#X array \$0-hann 512 float 0;
+#X coords 0 1 511 0 250 175 1 0 0;
 #X restore 384 36 graph \$0-hann;
 #X obj 36 60 bng 15 250 50 0 empty empty empty 17 7 0 10 #ffffff #000000 #000000;
 #X connect 1 0 6 0;

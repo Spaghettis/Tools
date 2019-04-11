@@ -10,8 +10,8 @@
 #X obj 120 108 dspstatus;
 #X text 24 24 zipper;
 #N canvas 0 22 500 350 \$0-zipper 0;
-#X array \$0-zipper 22050 float 2;
-#X coords 0 1 22050 0 250 175 1 0 0;
+#X array \$0-zipper 22050 float 0;
+#X coords 0 1 22049 0 250 175 1 0 0;
 #X restore 228 120 graph \$0-zipper;
 #X obj 120 300 sig~;
 #X msg 120 240 \$1 300 35;

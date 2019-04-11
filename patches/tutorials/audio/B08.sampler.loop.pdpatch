@@ -35,8 +35,8 @@
 #X coords 0 1 62079 -1 250 175 1 0 0;
 #X restore 264 120 graph \$0-table;
 #N canvas 0 22 500 350 \$0-out 0;
-#X array \$0-out 1024 float 2;
-#X coords 0 1 1024 -1 250 175 1 0 0;
+#X array \$0-out 1024 float 0;
+#X coords 0 1 1023 -1 250 175 1 0 0;
 #X restore 264 324 graph \$0-out;
 #X obj 36 324 tabread4~ \$0-table;
 #X obj 60 360 tabwrite~ \$0-out 250;

@@ -18,8 +18,8 @@
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 240 348 pd init;
 #N canvas 0 22 500 350 \$0-out 0;
-#X array \$0-out 4096 float 2;
-#X coords 0 1 4096 -1 250 175 1 0 0;
+#X array \$0-out 4096 float 0;
+#X coords 0 1 4095 -1 250 175 1 0 0;
 #X restore 240 120 graph \$0-out;
 #X floatatom 36 216 5 0 0 1 - - -;
 #X f 5;
