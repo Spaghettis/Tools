@@ -1,8 +1,8 @@
 #N canvas 668 123 406 592 12;
-#N canvas 459 121 595 368 samples 0;
+#N canvas 284 121 595 368 samples 0;
 #N canvas 0 22 500 350 \$0-sample1 0;
-#X array \$0-sample1 34475 float 2;
-#X coords 0 1 34475 -1 250 175 1 0 0;
+#X array \$0-sample1 62079 float 2;
+#X coords 0 1 62079 -1 250 175 1 0 0;
 #X restore 36 156 graph \$0-sample1;
 #N canvas 0 22 500 350 \$0-sample2 0;
 #X array \$0-sample2 39075 float 2;
@@ -10,8 +10,8 @@
 #X restore 312 156 graph \$0-sample2;
 #X obj 36 24 loadbang;
 #X obj 36 96 soundfiler;
-#X msg 36 60 read -resize you.aiff \$0-sample1 \, read -resize sound.wav \$0-sample2;
-#X f 67;
+#X msg 36 60 read -resize voice.wav \$0-sample1 \, read -resize sound.wav \$0-sample2;
+#X f 68;
 #X connect 2 0 4 0;
 #X connect 4 0 3 0;
 #X coords 0 0 1 1 250 175 0 0 0;
