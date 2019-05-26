@@ -71,6 +71,7 @@ netreceive
 openpanel
 savepanel
 makefilename
+mouse
 key
 keyup
 keyname
