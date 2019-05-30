@@ -66,6 +66,7 @@ print
 loadbang
 closebang
 dspstatus
+editmode
 netsend
 netreceive
 openpanel
