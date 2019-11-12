@@ -6,7 +6,7 @@
 #X obj 36 192 outlet~;
 #N canvas 0 22 500 350 \$0-impulse 0;
 #X array \$0-impulse 64 float 1;
-#A 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+#A 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0, _restore;
 #X coords 0 1 63 0 250 175 1 0 0;
 #X restore 264 36 graph \$0-impulse;
 #X obj 168 24 nbx 5 40 0 8 0 1 empty empty empty 0 -7 0 10 #ffffff #000000 #000000 8 8;
@@ -26,14 +26,14 @@
 #X obj 36 156 tabplay~ \$0-impulse;
 #X obj 36 60 metro 250;
 #X obj 84 120 s \$0-bang;
-#X obj 36 24 dspstatus;
 #X obj 36 84 t b b;
+#X obj 36 24 dspstart;
 #X connect 2 0 3 0;
 #X connect 4 0 0 0;
-#X connect 5 0 8 0;
-#X connect 7 0 5 0;
-#X connect 8 0 4 0;
-#X connect 8 1 6 0;
+#X connect 5 0 7 0;
+#X connect 7 0 4 0;
+#X connect 7 1 6 0;
+#X connect 8 0 5 0;
 #X coords 0 0 1 1 250 175 0 0 0;
 #X restore 36 108 pd pulse;
 #X obj 96 288 line~;
